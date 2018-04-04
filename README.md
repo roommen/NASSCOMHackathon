@@ -1,3 +1,3 @@
-# NASSCOM In Partnership With Paytm: Women In Technology Hackathon
+# TECHGIG Code Gladiators 2018
 
 Set of blockchain solutions built for the event
