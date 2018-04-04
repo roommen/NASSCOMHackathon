@@ -1,3 +1,3 @@
-# TECHGIG Code Gladiators 2018
+# Nasscom Paytm Hackathon
 
-Set of blockchain solutions built for the event
+Set of solutions built for the NASSCOM PayTM Women in Tech hackathon
