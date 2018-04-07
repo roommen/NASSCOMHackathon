@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Dashboard - Lambda101</title>
+		<title>Dashboard - Aadhaar Info</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<script src="js/jquery.min.js"></script>
@@ -13,17 +13,10 @@
 	<body>
 		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
 		</nav>
-		<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
-			<div class="divider"></div>
-			<ul class="nav menu">
-				<li class="active"><a href="./users.html">User Info</a></li>
-			</ul>
-		</div>
-
 		<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 			<div class="row">
 				<div class="col-lg-12" style="margin: -10px 0px;">
-					<h1 class="page-header">User Info</h1>
+					<h1 class="page-header">Aadhaar Info</h1>
 				</div>
 			</div>
 
@@ -33,10 +26,10 @@
 						<table id="users-list" class="table">
 							<thead style="background-color: #019847;color:white;">
 								<tr>
-									<th>Name</th>
-									<th>Email Address</th>
-									<th>Location</th>
-									<th>Comments</th>
+									<th>Aadhaar No</th>
+									<th>Full Name</th>
+									<th>Address</th>
+									<th>Phone</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -47,7 +40,7 @@
 				</div>
 
 				<div class="col-sm-12 footer">
-                    <p class="back-link">&#169; <span id="cur-year"></span> All rights reserved. <a style="text-decoration:none;color:white;" href="http://runcy.me/">Runcy Oommen</a></span></p>
+                    <p class="back-link">&#169; <span id="cur-year"></span> All rights reserved. Aadhaar Web Kiosk</span></p>
 				</div>
 			</div>
 		</div>
@@ -57,6 +50,6 @@
 				showUserInfo();
             });
         </script>
-        <script src="js/lambda101.js"></script>
+        <script src="js/aadhaar.js"></script>
     </body>
 </html>

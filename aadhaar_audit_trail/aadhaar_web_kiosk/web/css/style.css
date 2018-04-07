@@ -477,9 +477,19 @@ textarea{
     margin-top: 10%;
     padding: 22px 0px 22px 0px;
 }
+
 #error {
     color: red;
     visibility: hidden;
+}
+
+#otp {
+  /* color: red; */
+  visibility: hidden;
+}
+
+#otp-label {
+  visibility: hidden;
 }
 
 .t-tip {
